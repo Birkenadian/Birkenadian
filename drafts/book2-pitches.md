@@ -14,15 +14,15 @@ What follows are five concepts for a second book by Andrew Cashin, whose first, 
 
 **Why it's its own book.** This is a practice book about listening, not a book about collecting — there is no buying advice and no crate to dig, and it works even for a reader who owns no records at all.
 
-## 2. Side B: The Gentle Art of Letting Records Go
+## 2. The Masters: The Hidden Artists Who Finish the Music We Love
 
-**The hook.** Every collection eventually has a second act: the downsizing, the move, the estate. *Side B* is a book about curation as a practice — deciding what to keep, what to pass on, and what our shelves have been saying about who we were. It is equal parts practical guide (how to thin a collection well, how to sell, donate, and bequeath) and warm meditation on impermanence: the records leave, the listening remains.
+**The hook.** Every record passes through one last pair of hands before it reaches ours — the mastering engineer's. Names like Bob Ludwig, Bernie Grundman, Ted Jensen, Emily Lazar, and Kevin Gray are spoken with reverence by collectors who hunt for the initials they scratch into the dead wax, yet almost nobody outside the studio world knows what they actually do. *The Masters* tells music's last great untold craft story through interview-driven profiles of its most celebrated practitioners — the most disciplined listeners alive, whose entire profession is the practice of paying attention.
 
-**The reader.** Collectors in midlife and beyond whose collections have outgrown their shelves or their lives, and the partners and children who will one day inherit a wall of vinyl they don't yet understand.
+**The reader.** Audiophiles and collectors who already seek out particular masterings and pressings, plus the general music reader who loves a behind-the-scenes craft story.
 
-**The bridge.** The first book is about building a meaningful collection; *Side B* completes the arc in the same voice, showing that letting go can be as intentional — and as rewarding — as acquiring.
+**The bridge.** Book one teaches collectors to listen with intention; this book introduces the people whose intentional listening shaped every record on their shelves.
 
-**Why it's its own book.** It is aimed at the end of the collecting journey rather than the beginning, a stage no book in this territory addresses directly.
+**Why it's its own book.** It is a journalism-and-profiles book about the people who finish the records, not the people who collect them.
 
 ## 3. Zen and the Art of the Mixtape
 
