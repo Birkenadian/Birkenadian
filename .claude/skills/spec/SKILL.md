@@ -1,6 +1,6 @@
 ---
 name: spec
-description: Interview the user about a post, blog, article, or book they want to write, then produce a detailed writing spec at specs/writing.md. Use when the user runs /spec or asks to spec out a piece of writing.
+description: Interview the user about a post, blog, article, or book they want to write, then produce a detailed writing spec in the relevant project folder under projects/. Use when the user runs /spec or asks to spec out a piece of writing.
 ---
 
 # Writing Spec Interviewer
@@ -28,7 +28,7 @@ Guidelines for the interview:
 
 ## Phase 2: Write the spec
 
-Once the user confirms your understanding, write a clear, detailed spec and save it to `specs/writing.md` (create the `specs/` directory if it doesn't exist). If `specs/writing.md` already exists, show the user a one-line summary of what's there and confirm before overwriting.
+Once the user confirms your understanding, write a clear, detailed spec and save it to the relevant project's folder as `projects/<project>/spec.md`. Read the root `CLAUDE.md` and the project's `claude.md` and `memory.md` first, and fold the workspace's standing writing rules into the spec's constraints. If it is unclear which project this belongs to, or whether it is a new project, ask before filing. If the spec file already exists, show the user a one-line summary of what's there and confirm before overwriting. Update the project's `memory.md` after saving.
 
 The spec must include these sections:
 
@@ -63,4 +63,4 @@ objectively verifiable (e.g., "[ ] Word count is 1,200–1,800",
 
 Every section must be filled with specifics from the interview — no placeholders, no "TBD". If you can't fill a section, you haven't finished the interview; go back and ask.
 
-After saving, tell the user the spec is at `specs/writing.md` and summarize it in a few sentences. Do not begin writing the piece itself unless the user explicitly asks.
+After saving, tell the user where the spec is and summarize it in a few sentences. Do not begin writing the piece itself unless the user explicitly asks.

@@ -1,6 +1,6 @@
 ---
 name: build
-description: Read the spec at specs/writing.md and build exactly what it describes — nothing more. Use when the user runs /build or asks to build/write the piece from the spec.
+description: Read the active project's spec (projects/<project>/spec.md) and build exactly what it describes — nothing more. Use when the user runs /build or asks to build/write the piece from the spec.
 ---
 
 # Spec-Driven Builder
@@ -9,9 +9,9 @@ You build exactly what the spec describes. The spec is the contract; you are not
 
 ## Step 1: Read the spec
 
-Read `specs/writing.md` in full before doing anything else.
+Read the root `CLAUDE.md`, then the active project's `claude.md`, `memory.md`, and `spec.md` under `projects/<project>/`, in full, before doing anything else. If several project folders exist and it is unclear which one is active, ask. If the project has a `review.md` fix list, treat its items as part of the contract.
 
-- If the file does not exist, stop and tell the user to run `/spec` first. Do not improvise a spec or ask interview questions yourself.
+- If no spec exists, stop and tell the user to run `/spec` first. Do not improvise a spec or ask interview questions yourself.
 - If the spec is ambiguous or contradicts itself on a point that materially changes what you'd produce, ask the user to resolve that specific point before building. Do not silently pick an interpretation for material ambiguities.
 
 ## Step 2: Build exactly what it says
@@ -24,7 +24,7 @@ Hard rules:
 - **No unrelated changes.** Do not refactor, reorganize, rename, or "clean up" anything in the repository that the spec doesn't require touching.
 - **Honor every constraint literally.** Word counts, tone, structure, forbidden topics, format requirements — treat them as hard limits, not guidelines.
 - **Handle every listed edge case** the way the spec says to handle it.
-- Save the deliverable where the spec says to; if the spec doesn't specify a location, use a sensible path under `drafts/` and say where you put it.
+- Save the deliverable where the spec says to; if the spec doesn't specify a location, file it inside the project's folder under `projects/` and say where you put it. Never leave files loose outside a project folder. Update the project's `memory.md` when the build completes.
 
 Before declaring the build finished, re-read the spec's Definition of Done and check the deliverable against it item by item yourself. Fix anything that fails before reporting.
 
